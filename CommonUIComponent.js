@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Container, CardText, ButtonContainer, FilterHeading, FilterText, FilterIcon, InnerContainer, CheckBoxContainer, TextContainer, Logo, OutlierDividerStyle} from './stylesContainer';
+import Flash from './Flash.png';
 import {Checkbox} from "@rmwc/checkbox";
 import '@rmwc/checkbox/styles';
 
@@ -22,7 +23,7 @@ const CommonFilterUI = (props) => {
       </InnerContainer>
       <InnerContainer tags={{ react: 'div', reactNative: 'View'}}>
          <TextContainer tags={{ react: 'div', reactNative: 'View'}}>
-         Logo source={obj.icon} tags={{ react: 'img', reactNative: 'Image'}}/>
+         Logo source={Flash} tags={{ react: 'img', reactNative: 'Image'}}/>
           <FilterText tags={{react: 'p',reactNative: 'Text'}}>Correct</FilterText>
         </TextContainer>
           <CheckBoxContainer tags={{ react: 'div', reactNative: 'View'}}>
